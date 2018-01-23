@@ -95,6 +95,7 @@ ul > li {
 }
 ol > li {
   list-style-type: decimal;
+  margin-left: 1em;
 }
 li ul,
 li ol {
@@ -301,7 +302,8 @@ nav {
 /* Table */
 table {
 	table-layout: fixed;
-	width: 80%;
+	width: 750px;
+  margin-bottom: 1em;
 }
 table, th, td {
 	border: 1px solid #59453C;
@@ -313,11 +315,16 @@ table, th, td {
   font-weight: 700;
 }
 .tabletitle {
-	border-left: none;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-left: none;
+}
+#protable {
+  margin-bottom: 0;
 }
 tr .firstrow {
 	border-right: none;
-	width: 70px;
+	width: 75px;
 }
 tr .secondrow {
 	text-align: left;
@@ -329,8 +336,15 @@ td a {
 td {
 	text-align: center;
 }
+.nobullet {
+  list-style: none;
+}
 .alignleft {
 	text-align: left;
+  padding-top: 5px;
+}
+.short {
+  width: 120px;
 }
 .redfont {
 	color: red;
@@ -345,6 +359,9 @@ td {
 	margin: 10px;
 	margin-left: 30%;
 	margin-right: 30%;
+}
+#h3wide {
+  width: 750px;
 }
 
 /* Policies */ 
@@ -453,6 +470,22 @@ td {
   .agenda > ol {
     display: block;
   }
+  .link-group {
+    position: relative;
+  }
+  #essential-tools, #course-resources {
+    padding-left: 1em;
+    width: 42.5%;
+    margin-right: 0;
+  }
+  
+  #essential-references {
+    position: absolute;
+    top: 0px;
+    width: 42.5%;
+    padding-left: 55%;
+  }
+
 }
 
 @media screen and (min-width: 804px) {

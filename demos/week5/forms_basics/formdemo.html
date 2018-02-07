@@ -5,12 +5,15 @@
 	<title>Document</title>
 </head>
 <body>
-	<form method="POST" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
+	<form method="GET" action="#" enctype="multipart/form-data">
 	<fieldset>
 	<legend>Text Entry Controls</legend>
 		<p>
 			<label>First Name: <input type="text" name="text_field" placeholder="Dah, it's your first name"></label>
 		</p>
+    <p>
+      <label>Email Address: <input type="email" name="email_field"></label>
+    </p>
 		<p>
 		<label for="our_textarea">Comments:</label>
 			<textarea cols="30" rows="10" name="textarea_field" placeholder="Default Textarea text" id="our_textarea"></textarea>
@@ -34,10 +37,11 @@
 				<option value="R">Red</option>
 				<option value="G" selected>Green</option>
 				<option value="B">Blue</option>
+        <option value="YES">Best Class Ever!</option>
 			</select>
 		</p>
 		<p>
-			<select size="3" multiple="multiple" name="menu_field[]">
+			<select size="7" multiple="multiple" name="menu_field[]">
 				<optgroup label="Primary">
 				<option value="R">Red</option>
 				<option value="G" selected>Green</option>
@@ -54,9 +58,9 @@
 			<input type="file" name="file_field">
 		</p>
 		<p>
-			<input type="hidden" name="hidden_field" value="bbailey4">
+			<input type="hidden" name="hidden_field" value="dank">
 		</p>
-		<input type="submit" value="Turn me on">
+		<input type="submit" value="Submit">
 		<input type="reset" value="no don't go">
 	</form>
 </body>

@@ -7,7 +7,7 @@ remote GitHub repository. Follow the steps below exactly in order to receive ful
    https://github.com/dkriegls/itmd-362-spring2018 and click the Fork button. You will then see
    that you have forked the Labs repository from `dkriegls/itmd-362-fall2017/tree/master/labs`
 
-2. Follow GitHub's directions for cloning: https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-desktop/
+2. Follow GitHub's directions for cloning: https://help.github.com/desktop/guides/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop/
 
 3. Create a new organization and invite the <a href="https://github.com/dkriegls">professor</a> to join. Steps for creating an organization: https://github.com/organizations/new
 

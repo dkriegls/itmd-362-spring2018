@@ -1,7 +1,7 @@
 # Lab 06: Implementing HCI guidelines for touchscreens
 
 Using the HCI guidelines from either Apple/iOS, GNOME, or Windows, redesign the login page at
-http://my.iit.edu/ for a touch-friendly environment. Use this to kick-start your work on Project 2.
+http://my.iit.edu/ for a touch-friendly environment.
 
 **You only need to sketch your redesign**, and in the text below, reference at least three different
 points of guidance from chosen HCI guidelines that went into your redesign sketches (you might
@@ -12,7 +12,7 @@ want to do multiple sketches or mock-ups, each highlighting a different feature 
 * Apple iOS HCI Guidelines:
   https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/
 * Gnome Desktop:
-  https://developer.microsoft.com/en-us/windows/desktop/design
+  https://developer.gnome.org/hig/stable/
 * Windows Desktop Guidelines:
   https://developer.microsoft.com/en-us/windows/desktop/design
 
